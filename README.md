@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Chatbot UI — Configurable Interface
 
 This project is a **configurable chat widget** built as part of a hiring exercise.  
@@ -38,19 +37,6 @@ It allows users to preview and customize the chat interface in real time through
 
 ---
 
-## ✅ Acceptance Criteria (Implemented)
-- Controls update preview instantly  
-- Avatar/Icon changes reflect immediately  
-- User/Bot colors independently adjustable (unless sync on)  
-- Light/Dark mode toggles correctly  
-- Responsive layout:  
-  - ≥ 900px → Side-by-side (Chat + Panel)  
-  - < 900px → Stacked vertically  
-- Keyboard navigation & Enter-to-send working  
-- Contrast warning shown when applicable  
-
----
-
 ## 📦 Installation & Running
 
 Clone the repo and install dependencies:
@@ -60,6 +46,7 @@ git clone https://github.com/your-username/chatbot-ui.git
 cd chatbot-ui
 npm install
 npm start
+```
 
 
 ---
@@ -95,7 +82,7 @@ chatbot-ui/
 ## 📸 Screenshots
 
 ### Chat Widget (Light Mode)
-![Light Mode Screenshot](...\chatbot-ui\screenshots\Screenshot 2025-09-26 195413.png)
+![Light Mode Screenshot](./screenshots/chat-light.png)
 
 ### Chat Widget (Dark Mode)
 ![Dark Mode Screenshot](./screenshots/chat-dark.png)
@@ -109,10 +96,6 @@ chatbot-ui/
 ## 👨‍💻 Author
 
 - **Your Name**  
-- GitHub: [@your-username](https://github.com/your-username)  
-- Email: your.email@example.com  
+- GitHub:  [github](https://github.com/Vikasprajapat1602)
 
 ---
-=======
-# chatbot-ui
->>>>>>> f47235e65bb3cc39231570cca09f99b958ac7bb8
