@@ -46,6 +46,7 @@ git clone https://github.com/your-username/chatbot-ui.git
 cd chatbot-ui
 npm install
 npm start
+```
 
 
 ---
@@ -100,5 +101,3 @@ chatbot-ui/
 
 ---
 =======
-# chatbot-ui
->>>>>>> f47235e65bb3cc39231570cca09f99b958ac7bb8
