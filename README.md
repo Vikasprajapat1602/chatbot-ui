@@ -82,7 +82,7 @@ chatbot-ui/
 ## 📸 Screenshots
 
 ### Chat Widget (Light Mode)
-![Light Mode Screenshot](../screenshots/chat-light.png)
+![Light Mode Screenshot](./screenshots/chat-light.png)
 
 
 ### Chat Widget (Dark Mode)
