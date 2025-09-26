@@ -97,6 +97,6 @@ chatbot-ui/
 ## 👨‍💻 Author
 
 - **Your Name** :  VIKAS PRAJAPAT 
-- GitHub:  [github](https://github.com/Vikasprajapat1602)
+- [GitHub](https://github.com/Vikasprajapat1602)
 
 ---
