@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Chatbot UI — Configurable Interface
 
 This project is a **configurable chat widget** built as part of a hiring exercise.  
@@ -112,3 +113,6 @@ chatbot-ui/
 - Email: your.email@example.com  
 
 ---
+=======
+# chatbot-ui
+>>>>>>> f47235e65bb3cc39231570cca09f99b958ac7bb8
