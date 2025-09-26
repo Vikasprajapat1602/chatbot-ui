@@ -82,11 +82,8 @@ chatbot-ui/
 ## 📸 Screenshots
 
 ### Chat Widget (Light Mode)
-<<<<<<< HEAD
-![Light Mode Screenshot](./screenshots/chat-light.png)
-=======
 ![Light Mode Screenshot](../screenshots/chat-light.png)
->>>>>>> 078898fdc589410fed77ff58f34ba53f9fb9f0b2
+
 
 ### Chat Widget (Dark Mode)
 ![Dark Mode Screenshot](./screenshots/chat-dark.png)
@@ -99,12 +96,7 @@ chatbot-ui/
 
 ## 👨‍💻 Author
 
-- **Your Name**  
+- **Your Name** :  VIKAS PRAJAPAT 
 - GitHub:  [github](https://github.com/Vikasprajapat1602)
 
-<<<<<<< HEAD
 ---
-=======
----
-=======
->>>>>>> 078898fdc589410fed77ff58f34ba53f9fb9f0b2
