@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# Chatbot UI — Configurable Interface
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a **configurable chat widget** built as part of a hiring exercise.  
+It allows users to preview and customize the chat interface in real time through a style/config panel.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Tech Stack
+- **ReactJS** (with Hooks & functional components)  
+- **TailwindCSS** (for styling, responsive layout, and modern UI)  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚡ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🖼 Chat Window
+- Header with site/app name + chat icon or profile picture  
+- Scrollable message area with user & bot messages  
+- Composer area: input box + send button  
+- “Powered by” line (toggleable in style panel)  
 
-### `npm test`
+### 🎨 Style Panel
+- **Appearance**: Light/Dark mode toggle  
+- **Branding**: Upload profile picture & chat icon  
+- **Colors**: User bubble, Bot bubble, User text, Bot text, Header background, Chat area background, Bubble radius  
+- **Typography**: Font size (12–18px), Font family (Inter, Roboto, Georgia, etc.)  
+- **Layout**: Widget width (280–420px), Corner radius (0–24px)  
+- **Behavior**:  
+  - Sync user bubble color with header  
+  - Show/Hide “Powered by” line  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ♿ Accessibility
+- Fully keyboard accessible (Tab focus navigation)  
+- Press **Enter** to send a message  
+- Visible focus rings for interactive elements  
+- Automatic **contrast warning** if text/background ratio < 4.5:1  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✅ Acceptance Criteria (Implemented)
+- Controls update preview instantly  
+- Avatar/Icon changes reflect immediately  
+- User/Bot colors independently adjustable (unless sync on)  
+- Light/Dark mode toggles correctly  
+- Responsive layout:  
+  - ≥ 900px → Side-by-side (Chat + Panel)  
+  - < 900px → Stacked vertically  
+- Keyboard navigation & Enter-to-send working  
+- Contrast warning shown when applicable  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📦 Installation & Running
 
-### `npm run eject`
+Clone the repo and install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/your-username/chatbot-ui.git
+cd chatbot-ui
+npm install
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🗂️ Project Structure
 
-## Learn More
+chatbot-ui/
+ ├─ public/
+ │   ├─ favicon.ico
+ │   └─ manifest.json
+ ├─ screenshots/
+ │   ├─ chat-dark.png
+ │   ├─ chat-light.png
+ │   └─ style-panel.png
+ ├─ src/
+ │   ├─ components/
+ │   │   ├─ ChatWidget.jsx
+ │   │   ├─ StylePanel.jsx
+ │   ├─ utils/
+ │   │   └─ contrast.js
+ │   ├─ App.css
+ │   ├─ App.js
+ │   ├─ index.css
+ │   └─ index.js
+ ├─ .gitignore
+ ├─ package.json
+ ├─ tailwind.config.js
+ ├─ postcss.config.js
+ └─ README.md
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📸 Screenshots
 
-### Code Splitting
+### Chat Widget (Light Mode)
+![Light Mode Screenshot](...\chatbot-ui\screenshots\Screenshot 2025-09-26 195413.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Chat Widget (Dark Mode)
+![Dark Mode Screenshot](./screenshots/chat-dark.png)
 
-### Analyzing the Bundle Size
+### Style Panel
+![Style Panel Screenshot](./screenshots/style-panel_01.png)
+![Style Panel Screenshot](./screenshots/style-panel_02.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 👨‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Your Name**  
+- GitHub: [@your-username](https://github.com/your-username)  
+- Email: your.email@example.com  
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
