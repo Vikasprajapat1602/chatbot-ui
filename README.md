@@ -37,19 +37,6 @@ It allows users to preview and customize the chat interface in real time through
 
 ---
 
-## ✅ Acceptance Criteria (Implemented)
-- Controls update preview instantly  
-- Avatar/Icon changes reflect immediately  
-- User/Bot colors independently adjustable (unless sync on)  
-- Light/Dark mode toggles correctly  
-- Responsive layout:  
-  - ≥ 900px → Side-by-side (Chat + Panel)  
-  - < 900px → Stacked vertically  
-- Keyboard navigation & Enter-to-send working  
-- Contrast warning shown when applicable  
-
----
-
 ## 📦 Installation & Running
 
 Clone the repo and install dependencies:
