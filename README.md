@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Chatbot UI — Configurable Interface
 
 This project is a **configurable chat widget** built as part of a hiring exercise.  
